@@ -10,7 +10,7 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.modelContext) private var context
-    @Query private var CurrentTimer: [Timer]
+    @Query private var CurrentTimer: [TimerModel]
 
     var body: some View {
         VStack {

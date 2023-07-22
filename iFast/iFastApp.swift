@@ -11,7 +11,7 @@ import SwiftUI
 struct iFastApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView().modelContainer(for: Timer.self)
+            ContentView().modelContainer(for: TimerModel.self)
         }
     }
 }

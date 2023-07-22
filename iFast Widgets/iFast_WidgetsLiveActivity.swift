@@ -6,8 +6,8 @@
 //
 
 import ActivityKit
-import WidgetKit
 import SwiftUI
+import WidgetKit
 
 struct iFast_WidgetsAttributes: ActivityAttributes {
     public struct ContentState: Codable, Hashable {
@@ -56,25 +56,25 @@ struct iFast_WidgetsLiveActivity: Widget {
     }
 }
 
-extension iFast_WidgetsAttributes {
-    fileprivate static var preview: iFast_WidgetsAttributes {
+private extension iFast_WidgetsAttributes {
+    static var preview: iFast_WidgetsAttributes {
         iFast_WidgetsAttributes(name: "World")
     }
 }
 
-extension iFast_WidgetsAttributes.ContentState {
-    fileprivate static var smiley: iFast_WidgetsAttributes.ContentState {
+private extension iFast_WidgetsAttributes.ContentState {
+    static var smiley: iFast_WidgetsAttributes.ContentState {
         iFast_WidgetsAttributes.ContentState(emoji: "😀")
-     }
-     
-     fileprivate static var starEyes: iFast_WidgetsAttributes.ContentState {
-         iFast_WidgetsAttributes.ContentState(emoji: "🤩")
-     }
+    }
+
+    static var starEyes: iFast_WidgetsAttributes.ContentState {
+        iFast_WidgetsAttributes.ContentState(emoji: "🤩")
+    }
 }
 
-#Preview("Notification", as: .content, using: iFast_WidgetsAttributes.preview) {
-   iFast_WidgetsLiveActivity()
-} contentStates: {
-    iFast_WidgetsAttributes.ContentState.smiley
-    iFast_WidgetsAttributes.ContentState.starEyes
-}
+// #Preview("Notification", as: .content, using: iFast_WidgetsAttributes.preview) {
+//   iFast_WidgetsLiveActivity()
+// } contentStates: {
+//    iFast_WidgetsAttributes.ContentState.smiley
+//    iFast_WidgetsAttributes.ContentState.starEyes
+// }
