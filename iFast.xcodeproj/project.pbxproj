@@ -1,0 +1,1232 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9196C99F2A6C79BF0016388B /* iFastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C99E2A6C79BF0016388B /* iFastApp.swift */; };
+		9196C9A12A6C79BF0016388B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9A02A6C79BF0016388B /* ContentView.swift */; };
+		9196C9A32A6C79C10016388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9196C9A22A6C79C10016388B /* Assets.xcassets */; };
+		9196C9A62A6C79C10016388B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9196C9A52A6C79C10016388B /* Preview Assets.xcassets */; };
+		9196C9B02A6C79C10016388B /* iFastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9AF2A6C79C10016388B /* iFastTests.swift */; };
+		9196C9BA2A6C79C10016388B /* iFastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9B92A6C79C10016388B /* iFastUITests.swift */; };
+		9196C9BC2A6C79C10016388B /* iFastUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9BB2A6C79C10016388B /* iFastUITestsLaunchTests.swift */; };
+		9196C9C22A6C79C10016388B /* iFast Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 9196C9C12A6C79C10016388B /* iFast Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9196C9C72A6C79C10016388B /* iFastApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9C62A6C79C10016388B /* iFastApp.swift */; };
+		9196C9C92A6C79C10016388B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9C82A6C79C10016388B /* ContentView.swift */; };
+		9196C9CB2A6C79C30016388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9196C9CA2A6C79C30016388B /* Assets.xcassets */; };
+		9196C9CE2A6C79C30016388B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9196C9CD2A6C79C30016388B /* Preview Assets.xcassets */; };
+		9196C9D82A6C79C40016388B /* iFast_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9D72A6C79C40016388B /* iFast_Watch_AppTests.swift */; };
+		9196C9E22A6C79C40016388B /* iFast_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9E12A6C79C40016388B /* iFast_Watch_AppUITests.swift */; };
+		9196C9E42A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9E32A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift */; };
+		9196C9FC2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
+		9196C9FD2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
+		9196C9FE2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
+		9196C9FF2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
+		9196CA002A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
+		9196CA012A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
+		9196CA242A6C80300016388B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196CA082A6C7F6B0016388B /* WidgetKit.framework */; };
+		9196CA252A6C80300016388B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196CA0A2A6C7F6B0016388B /* SwiftUI.framework */; };
+		9196CA282A6C80300016388B /* iFast_WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA272A6C80300016388B /* iFast_WidgetsBundle.swift */; };
+		9196CA2A2A6C80300016388B /* iFast_WidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA292A6C80300016388B /* iFast_WidgetsLiveActivity.swift */; };
+		9196CA2C2A6C80300016388B /* iFast_Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA2B2A6C80300016388B /* iFast_Widgets.swift */; };
+		9196CA2E2A6C80300016388B /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA2D2A6C80300016388B /* AppIntent.swift */; };
+		9196CA302A6C80330016388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9196CA2F2A6C80330016388B /* Assets.xcassets */; };
+		9196CA342A6C80330016388B /* iFast WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9196C9AC2A6C79C10016388B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9196C99A2A6C79BF0016388B;
+			remoteInfo = iFast;
+		};
+		9196C9B62A6C79C10016388B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9196C99A2A6C79BF0016388B;
+			remoteInfo = iFast;
+		};
+		9196C9C32A6C79C10016388B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9196C9C02A6C79C10016388B;
+			remoteInfo = "iFast Watch App";
+		};
+		9196C9D42A6C79C40016388B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9196C9C02A6C79C10016388B;
+			remoteInfo = "iFast Watch App";
+		};
+		9196C9DE2A6C79C40016388B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9196C9C02A6C79C10016388B;
+			remoteInfo = "iFast Watch App";
+		};
+		9196CA322A6C80330016388B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9196CA222A6C80300016388B;
+			remoteInfo = "iFast WidgetsExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9196C9EA2A6C79C40016388B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9196C9C22A6C79C10016388B /* iFast Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196CA1E2A6C7F6E0016388B /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9196CA342A6C80330016388B /* iFast WidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9196C99B2A6C79BF0016388B /* iFast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iFast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196C99E2A6C79BF0016388B /* iFastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastApp.swift; sourceTree = "<group>"; };
+		9196C9A02A6C79BF0016388B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9196C9A22A6C79C10016388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9196C9A52A6C79C10016388B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9196C9AB2A6C79C10016388B /* iFastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196C9AF2A6C79C10016388B /* iFastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastTests.swift; sourceTree = "<group>"; };
+		9196C9B52A6C79C10016388B /* iFastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iFastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196C9B92A6C79C10016388B /* iFastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastUITests.swift; sourceTree = "<group>"; };
+		9196C9BB2A6C79C10016388B /* iFastUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9196C9C12A6C79C10016388B /* iFast Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iFast Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196C9C62A6C79C10016388B /* iFastApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFastApp.swift; sourceTree = "<group>"; };
+		9196C9C82A6C79C10016388B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9196C9CA2A6C79C30016388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9196C9CD2A6C79C30016388B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9196C9D32A6C79C40016388B /* iFast Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFast Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196C9D72A6C79C40016388B /* iFast_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Watch_AppTests.swift; sourceTree = "<group>"; };
+		9196C9DD2A6C79C40016388B /* iFast Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFast Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196C9E12A6C79C40016388B /* iFast_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		9196C9E32A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9196C9FB2A6C7A930016388B /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
+		9196CA082A6C7F6B0016388B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		9196CA0A2A6C7F6B0016388B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iFast WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9196CA272A6C80300016388B /* iFast_WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_WidgetsBundle.swift; sourceTree = "<group>"; };
+		9196CA292A6C80300016388B /* iFast_WidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_WidgetsLiveActivity.swift; sourceTree = "<group>"; };
+		9196CA2B2A6C80300016388B /* iFast_Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Widgets.swift; sourceTree = "<group>"; };
+		9196CA2D2A6C80300016388B /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		9196CA2F2A6C80330016388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9196CA312A6C80330016388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9196C9982A6C79BF0016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9A82A6C79C10016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9B22A6C79C10016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9BE2A6C79C10016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9D02A6C79C40016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9DA2A6C79C40016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196CA202A6C80300016388B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196CA252A6C80300016388B /* SwiftUI.framework in Frameworks */,
+				9196CA242A6C80300016388B /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9196C9922A6C79BF0016388B = {
+			isa = PBXGroup;
+			children = (
+				9196C9FA2A6C7A660016388B /* Shared */,
+				9196C99D2A6C79BF0016388B /* iFast */,
+				9196C9AE2A6C79C10016388B /* iFastTests */,
+				9196C9B82A6C79C10016388B /* iFastUITests */,
+				9196C9C52A6C79C10016388B /* iFast Watch App */,
+				9196C9D62A6C79C40016388B /* iFast Watch AppTests */,
+				9196C9E02A6C79C40016388B /* iFast Watch AppUITests */,
+				9196CA262A6C80300016388B /* iFast Widgets */,
+				9196CA072A6C7F6B0016388B /* Frameworks */,
+				9196C99C2A6C79BF0016388B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9196C99C2A6C79BF0016388B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9196C99B2A6C79BF0016388B /* iFast.app */,
+				9196C9AB2A6C79C10016388B /* iFastTests.xctest */,
+				9196C9B52A6C79C10016388B /* iFastUITests.xctest */,
+				9196C9C12A6C79C10016388B /* iFast Watch App.app */,
+				9196C9D32A6C79C40016388B /* iFast Watch AppTests.xctest */,
+				9196C9DD2A6C79C40016388B /* iFast Watch AppUITests.xctest */,
+				9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9196C99D2A6C79BF0016388B /* iFast */ = {
+			isa = PBXGroup;
+			children = (
+				9196C99E2A6C79BF0016388B /* iFastApp.swift */,
+				9196C9A02A6C79BF0016388B /* ContentView.swift */,
+				9196C9A22A6C79C10016388B /* Assets.xcassets */,
+				9196C9A42A6C79C10016388B /* Preview Content */,
+			);
+			path = iFast;
+			sourceTree = "<group>";
+		};
+		9196C9A42A6C79C10016388B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9A52A6C79C10016388B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9196C9AE2A6C79C10016388B /* iFastTests */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9AF2A6C79C10016388B /* iFastTests.swift */,
+			);
+			path = iFastTests;
+			sourceTree = "<group>";
+		};
+		9196C9B82A6C79C10016388B /* iFastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9B92A6C79C10016388B /* iFastUITests.swift */,
+				9196C9BB2A6C79C10016388B /* iFastUITestsLaunchTests.swift */,
+			);
+			path = iFastUITests;
+			sourceTree = "<group>";
+		};
+		9196C9C52A6C79C10016388B /* iFast Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9C62A6C79C10016388B /* iFastApp.swift */,
+				9196C9C82A6C79C10016388B /* ContentView.swift */,
+				9196C9CA2A6C79C30016388B /* Assets.xcassets */,
+				9196C9CC2A6C79C30016388B /* Preview Content */,
+			);
+			path = "iFast Watch App";
+			sourceTree = "<group>";
+		};
+		9196C9CC2A6C79C30016388B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9CD2A6C79C30016388B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		9196C9D62A6C79C40016388B /* iFast Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9D72A6C79C40016388B /* iFast_Watch_AppTests.swift */,
+			);
+			path = "iFast Watch AppTests";
+			sourceTree = "<group>";
+		};
+		9196C9E02A6C79C40016388B /* iFast Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9E12A6C79C40016388B /* iFast_Watch_AppUITests.swift */,
+				9196C9E32A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "iFast Watch AppUITests";
+			sourceTree = "<group>";
+		};
+		9196C9FA2A6C7A660016388B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				9196C9FB2A6C7A930016388B /* TimerModel.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		9196CA072A6C7F6B0016388B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9196CA082A6C7F6B0016388B /* WidgetKit.framework */,
+				9196CA0A2A6C7F6B0016388B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9196CA262A6C80300016388B /* iFast Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				9196CA272A6C80300016388B /* iFast_WidgetsBundle.swift */,
+				9196CA292A6C80300016388B /* iFast_WidgetsLiveActivity.swift */,
+				9196CA2B2A6C80300016388B /* iFast_Widgets.swift */,
+				9196CA2D2A6C80300016388B /* AppIntent.swift */,
+				9196CA2F2A6C80330016388B /* Assets.xcassets */,
+				9196CA312A6C80330016388B /* Info.plist */,
+			);
+			path = "iFast Widgets";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9196C99A2A6C79BF0016388B /* iFast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C9EB2A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast" */;
+			buildPhases = (
+				9196C9972A6C79BF0016388B /* Sources */,
+				9196C9982A6C79BF0016388B /* Frameworks */,
+				9196C9992A6C79BF0016388B /* Resources */,
+				9196C9EA2A6C79C40016388B /* Embed Watch Content */,
+				9196CA1E2A6C7F6E0016388B /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9196C9C42A6C79C10016388B /* PBXTargetDependency */,
+				9196CA332A6C80330016388B /* PBXTargetDependency */,
+			);
+			name = iFast;
+			productName = iFast;
+			productReference = 9196C99B2A6C79BF0016388B /* iFast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9196C9AA2A6C79C10016388B /* iFastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C9EE2A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFastTests" */;
+			buildPhases = (
+				9196C9A72A6C79C10016388B /* Sources */,
+				9196C9A82A6C79C10016388B /* Frameworks */,
+				9196C9A92A6C79C10016388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9196C9AD2A6C79C10016388B /* PBXTargetDependency */,
+			);
+			name = iFastTests;
+			productName = iFastTests;
+			productReference = 9196C9AB2A6C79C10016388B /* iFastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9196C9B42A6C79C10016388B /* iFastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C9F12A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFastUITests" */;
+			buildPhases = (
+				9196C9B12A6C79C10016388B /* Sources */,
+				9196C9B22A6C79C10016388B /* Frameworks */,
+				9196C9B32A6C79C10016388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9196C9B72A6C79C10016388B /* PBXTargetDependency */,
+			);
+			name = iFastUITests;
+			productName = iFastUITests;
+			productReference = 9196C9B52A6C79C10016388B /* iFastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9196C9C02A6C79C10016388B /* iFast Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C9E72A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast Watch App" */;
+			buildPhases = (
+				9196C9BD2A6C79C10016388B /* Sources */,
+				9196C9BE2A6C79C10016388B /* Frameworks */,
+				9196C9BF2A6C79C10016388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iFast Watch App";
+			productName = "iFast Watch App";
+			productReference = 9196C9C12A6C79C10016388B /* iFast Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9196C9D22A6C79C40016388B /* iFast Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C9F42A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast Watch AppTests" */;
+			buildPhases = (
+				9196C9CF2A6C79C40016388B /* Sources */,
+				9196C9D02A6C79C40016388B /* Frameworks */,
+				9196C9D12A6C79C40016388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9196C9D52A6C79C40016388B /* PBXTargetDependency */,
+			);
+			name = "iFast Watch AppTests";
+			productName = "iFast Watch AppTests";
+			productReference = 9196C9D32A6C79C40016388B /* iFast Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9196C9DC2A6C79C40016388B /* iFast Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196C9F72A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast Watch AppUITests" */;
+			buildPhases = (
+				9196C9D92A6C79C40016388B /* Sources */,
+				9196C9DA2A6C79C40016388B /* Frameworks */,
+				9196C9DB2A6C79C40016388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9196C9DF2A6C79C40016388B /* PBXTargetDependency */,
+			);
+			name = "iFast Watch AppUITests";
+			productName = "iFast Watch AppUITests";
+			productReference = 9196C9DD2A6C79C40016388B /* iFast Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9196CA222A6C80300016388B /* iFast WidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9196CA352A6C80330016388B /* Build configuration list for PBXNativeTarget "iFast WidgetsExtension" */;
+			buildPhases = (
+				9196CA1F2A6C80300016388B /* Sources */,
+				9196CA202A6C80300016388B /* Frameworks */,
+				9196CA212A6C80300016388B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iFast WidgetsExtension";
+			productName = "iFast WidgetsExtension";
+			productReference = 9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9196C9932A6C79BF0016388B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					9196C99A2A6C79BF0016388B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9196C9AA2A6C79C10016388B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9196C99A2A6C79BF0016388B;
+					};
+					9196C9B42A6C79C10016388B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9196C99A2A6C79BF0016388B;
+					};
+					9196C9C02A6C79C10016388B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					9196C9D22A6C79C40016388B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9196C9C02A6C79C10016388B;
+					};
+					9196C9DC2A6C79C40016388B = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 9196C9C02A6C79C10016388B;
+					};
+					9196CA222A6C80300016388B = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 9196C9962A6C79BF0016388B /* Build configuration list for PBXProject "iFast" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9196C9922A6C79BF0016388B;
+			productRefGroup = 9196C99C2A6C79BF0016388B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9196C99A2A6C79BF0016388B /* iFast */,
+				9196C9AA2A6C79C10016388B /* iFastTests */,
+				9196C9B42A6C79C10016388B /* iFastUITests */,
+				9196C9C02A6C79C10016388B /* iFast Watch App */,
+				9196C9D22A6C79C40016388B /* iFast Watch AppTests */,
+				9196C9DC2A6C79C40016388B /* iFast Watch AppUITests */,
+				9196CA222A6C80300016388B /* iFast WidgetsExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9196C9992A6C79BF0016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9A62A6C79C10016388B /* Preview Assets.xcassets in Resources */,
+				9196C9A32A6C79C10016388B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9A92A6C79C10016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9B32A6C79C10016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9BF2A6C79C10016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9CE2A6C79C30016388B /* Preview Assets.xcassets in Resources */,
+				9196C9CB2A6C79C30016388B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9D12A6C79C40016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9DB2A6C79C40016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196CA212A6C80300016388B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196CA302A6C80330016388B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9196C9972A6C79BF0016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9FC2A6C7A930016388B /* TimerModel.swift in Sources */,
+				9196C9A12A6C79BF0016388B /* ContentView.swift in Sources */,
+				9196C99F2A6C79BF0016388B /* iFastApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9A72A6C79C10016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9B02A6C79C10016388B /* iFastTests.swift in Sources */,
+				9196C9FD2A6C7A930016388B /* TimerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9B12A6C79C10016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9FE2A6C7A930016388B /* TimerModel.swift in Sources */,
+				9196C9BC2A6C79C10016388B /* iFastUITestsLaunchTests.swift in Sources */,
+				9196C9BA2A6C79C10016388B /* iFastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9BD2A6C79C10016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9FF2A6C7A930016388B /* TimerModel.swift in Sources */,
+				9196C9C92A6C79C10016388B /* ContentView.swift in Sources */,
+				9196C9C72A6C79C10016388B /* iFastApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9CF2A6C79C40016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196C9D82A6C79C40016388B /* iFast_Watch_AppTests.swift in Sources */,
+				9196CA002A6C7A930016388B /* TimerModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196C9D92A6C79C40016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196CA012A6C7A930016388B /* TimerModel.swift in Sources */,
+				9196C9E42A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift in Sources */,
+				9196C9E22A6C79C40016388B /* iFast_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9196CA1F2A6C80300016388B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9196CA2A2A6C80300016388B /* iFast_WidgetsLiveActivity.swift in Sources */,
+				9196CA2E2A6C80300016388B /* AppIntent.swift in Sources */,
+				9196CA282A6C80300016388B /* iFast_WidgetsBundle.swift in Sources */,
+				9196CA2C2A6C80300016388B /* iFast_Widgets.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9196C9AD2A6C79C10016388B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9196C99A2A6C79BF0016388B /* iFast */;
+			targetProxy = 9196C9AC2A6C79C10016388B /* PBXContainerItemProxy */;
+		};
+		9196C9B72A6C79C10016388B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9196C99A2A6C79BF0016388B /* iFast */;
+			targetProxy = 9196C9B62A6C79C10016388B /* PBXContainerItemProxy */;
+		};
+		9196C9C42A6C79C10016388B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9196C9C02A6C79C10016388B /* iFast Watch App */;
+			targetProxy = 9196C9C32A6C79C10016388B /* PBXContainerItemProxy */;
+		};
+		9196C9D52A6C79C40016388B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9196C9C02A6C79C10016388B /* iFast Watch App */;
+			targetProxy = 9196C9D42A6C79C40016388B /* PBXContainerItemProxy */;
+		};
+		9196C9DF2A6C79C40016388B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9196C9C02A6C79C10016388B /* iFast Watch App */;
+			targetProxy = 9196C9DE2A6C79C40016388B /* PBXContainerItemProxy */;
+		};
+		9196CA332A6C80330016388B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9196CA222A6C80300016388B /* iFast WidgetsExtension */;
+			targetProxy = 9196CA322A6C80330016388B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		9196C9E52A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9196C9E62A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		9196C9E82A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFast Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iFast;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.gagebachik.iFast;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFast.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		9196C9E92A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFast Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iFast;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.gagebachik.iFast;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFast.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		9196C9EC2A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFast/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iFast;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9196C9ED2A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"iFast/Preview Content\"";
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = iFast;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFast;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9196C9EF2A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iFast";
+			};
+			name = Debug;
+		};
+		9196C9F02A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFastTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFast.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iFast";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9196C9F22A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iFast;
+			};
+			name = Debug;
+		};
+		9196C9F32A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.gagebachik.iFastUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = iFast;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9196C9F52A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFast Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iFast Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		9196C9F62A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iFast Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iFast Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		9196C9F82A6C79C40016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iFast Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		9196C9F92A6C79C40016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "iFast Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		9196CA362A6C80330016388B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iFast Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iFast Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast.iFast-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9196CA372A6C80330016388B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D569H5C3WV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iFast Widgets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "iFast Widgets";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast.iFast-Widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9196C9962A6C79BF0016388B /* Build configuration list for PBXProject "iFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9E52A6C79C40016388B /* Debug */,
+				9196C9E62A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C9E72A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9E82A6C79C40016388B /* Debug */,
+				9196C9E92A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C9EB2A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9EC2A6C79C40016388B /* Debug */,
+				9196C9ED2A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C9EE2A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9EF2A6C79C40016388B /* Debug */,
+				9196C9F02A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C9F12A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9F22A6C79C40016388B /* Debug */,
+				9196C9F32A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C9F42A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9F52A6C79C40016388B /* Debug */,
+				9196C9F62A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196C9F72A6C79C40016388B /* Build configuration list for PBXNativeTarget "iFast Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196C9F82A6C79C40016388B /* Debug */,
+				9196C9F92A6C79C40016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9196CA352A6C80330016388B /* Build configuration list for PBXNativeTarget "iFast WidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9196CA362A6C80330016388B /* Debug */,
+				9196CA372A6C80330016388B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9196C9932A6C79BF0016388B /* Project object */;
+}
