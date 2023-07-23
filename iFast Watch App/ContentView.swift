@@ -9,8 +9,8 @@ import SwiftData
 import SwiftUI
 
 struct ContentView: View {
-    @Environment(\.modelContext) private var context
-    @Query private var CurrentTimer: [Timer]
+    @Environment(\.managedObjectContext) var moc
+    @FetchRequest(sortDescriptors: []) var timers: FetchedResults<Cycle>
 
     var body: some View {
         VStack {
@@ -23,6 +23,6 @@ struct ContentView: View {
     }
 }
 
-// #Preview {
-//    ContentView()
-// }
+#Preview {
+    ContentView()
+}

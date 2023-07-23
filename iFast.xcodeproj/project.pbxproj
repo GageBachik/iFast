@@ -22,20 +22,18 @@
 		9196C9D82A6C79C40016388B /* iFast_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9D72A6C79C40016388B /* iFast_Watch_AppTests.swift */; };
 		9196C9E22A6C79C40016388B /* iFast_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9E12A6C79C40016388B /* iFast_Watch_AppUITests.swift */; };
 		9196C9E42A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9E32A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift */; };
-		9196C9FC2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
-		9196C9FD2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
-		9196C9FE2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
-		9196C9FF2A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
-		9196CA002A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
-		9196CA012A6C7A930016388B /* TimerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196C9FB2A6C7A930016388B /* TimerModel.swift */; };
-		9196CA242A6C80300016388B /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196CA082A6C7F6B0016388B /* WidgetKit.framework */; };
-		9196CA252A6C80300016388B /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9196CA0A2A6C7F6B0016388B /* SwiftUI.framework */; };
-		9196CA282A6C80300016388B /* iFast_WidgetsBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA272A6C80300016388B /* iFast_WidgetsBundle.swift */; };
-		9196CA2A2A6C80300016388B /* iFast_WidgetsLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA292A6C80300016388B /* iFast_WidgetsLiveActivity.swift */; };
-		9196CA2C2A6C80300016388B /* iFast_Widgets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA2B2A6C80300016388B /* iFast_Widgets.swift */; };
-		9196CA2E2A6C80300016388B /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9196CA2D2A6C80300016388B /* AppIntent.swift */; };
-		9196CA302A6C80330016388B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9196CA2F2A6C80330016388B /* Assets.xcassets */; };
-		9196CA342A6C80330016388B /* iFast WidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		91CEB80A2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */; };
+		91CEB80B2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */; };
+		91CEB80C2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */; };
+		91CEB80D2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */; };
+		91CEB80E2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */; };
+		91CEB80F2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */; };
+		91CEB8122A6CB9A800B9A265 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8112A6CB9A800B9A265 /* DataController.swift */; };
+		91CEB8132A6CB9A800B9A265 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8112A6CB9A800B9A265 /* DataController.swift */; };
+		91CEB8142A6CB9A800B9A265 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8112A6CB9A800B9A265 /* DataController.swift */; };
+		91CEB8152A6CB9A800B9A265 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8112A6CB9A800B9A265 /* DataController.swift */; };
+		91CEB8162A6CB9A800B9A265 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8112A6CB9A800B9A265 /* DataController.swift */; };
+		91CEB8172A6CB9A800B9A265 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CEB8112A6CB9A800B9A265 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,13 +72,6 @@
 			remoteGlobalIDString = 9196C9C02A6C79C10016388B;
 			remoteInfo = "iFast Watch App";
 		};
-		9196CA322A6C80330016388B /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 9196C9932A6C79BF0016388B /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 9196CA222A6C80300016388B;
-			remoteInfo = "iFast WidgetsExtension";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -101,7 +92,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				9196CA342A6C80330016388B /* iFast WidgetsExtension.appex in Embed Foundation Extensions */,
 			);
 			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,16 +119,10 @@
 		9196C9DD2A6C79C40016388B /* iFast Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iFast Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9196C9E12A6C79C40016388B /* iFast_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Watch_AppUITests.swift; sourceTree = "<group>"; };
 		9196C9E32A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9196C9FB2A6C7A930016388B /* TimerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerModel.swift; sourceTree = "<group>"; };
 		9196CA082A6C7F6B0016388B /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		9196CA0A2A6C7F6B0016388B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
-		9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "iFast WidgetsExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9196CA272A6C80300016388B /* iFast_WidgetsBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_WidgetsBundle.swift; sourceTree = "<group>"; };
-		9196CA292A6C80300016388B /* iFast_WidgetsLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_WidgetsLiveActivity.swift; sourceTree = "<group>"; };
-		9196CA2B2A6C80300016388B /* iFast_Widgets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iFast_Widgets.swift; sourceTree = "<group>"; };
-		9196CA2D2A6C80300016388B /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
-		9196CA2F2A6C80330016388B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		9196CA312A6C80330016388B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91CEB8092A6CB98F00B9A265 /* iFast.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = iFast.xcdatamodel; sourceTree = "<group>"; };
+		91CEB8112A6CB9A800B9A265 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,15 +168,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9196CA202A6C80300016388B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9196CA252A6C80300016388B /* SwiftUI.framework in Frameworks */,
-				9196CA242A6C80300016388B /* WidgetKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -206,7 +181,6 @@
 				9196C9C52A6C79C10016388B /* iFast Watch App */,
 				9196C9D62A6C79C40016388B /* iFast Watch AppTests */,
 				9196C9E02A6C79C40016388B /* iFast Watch AppUITests */,
-				9196CA262A6C80300016388B /* iFast Widgets */,
 				9196CA072A6C7F6B0016388B /* Frameworks */,
 				9196C99C2A6C79BF0016388B /* Products */,
 			);
@@ -221,7 +195,6 @@
 				9196C9C12A6C79C10016388B /* iFast Watch App.app */,
 				9196C9D32A6C79C40016388B /* iFast Watch AppTests.xctest */,
 				9196C9DD2A6C79C40016388B /* iFast Watch AppUITests.xctest */,
-				9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -301,7 +274,8 @@
 		9196C9FA2A6C7A660016388B /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				9196C9FB2A6C7A930016388B /* TimerModel.swift */,
+				91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */,
+				91CEB8112A6CB9A800B9A265 /* DataController.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -313,19 +287,6 @@
 				9196CA0A2A6C7F6B0016388B /* SwiftUI.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		9196CA262A6C80300016388B /* iFast Widgets */ = {
-			isa = PBXGroup;
-			children = (
-				9196CA272A6C80300016388B /* iFast_WidgetsBundle.swift */,
-				9196CA292A6C80300016388B /* iFast_WidgetsLiveActivity.swift */,
-				9196CA2B2A6C80300016388B /* iFast_Widgets.swift */,
-				9196CA2D2A6C80300016388B /* AppIntent.swift */,
-				9196CA2F2A6C80330016388B /* Assets.xcassets */,
-				9196CA312A6C80330016388B /* Info.plist */,
-			);
-			path = "iFast Widgets";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -345,7 +306,6 @@
 			);
 			dependencies = (
 				9196C9C42A6C79C10016388B /* PBXTargetDependency */,
-				9196CA332A6C80330016388B /* PBXTargetDependency */,
 			);
 			name = iFast;
 			productName = iFast;
@@ -441,23 +401,6 @@
 			productReference = 9196C9DD2A6C79C40016388B /* iFast Watch AppUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		9196CA222A6C80300016388B /* iFast WidgetsExtension */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 9196CA352A6C80330016388B /* Build configuration list for PBXNativeTarget "iFast WidgetsExtension" */;
-			buildPhases = (
-				9196CA1F2A6C80300016388B /* Sources */,
-				9196CA202A6C80300016388B /* Frameworks */,
-				9196CA212A6C80300016388B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "iFast WidgetsExtension";
-			productName = "iFast WidgetsExtension";
-			productReference = 9196CA232A6C80300016388B /* iFast WidgetsExtension.appex */;
-			productType = "com.apple.product-type.app-extension";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -490,9 +433,6 @@
 						CreatedOnToolsVersion = 15.0;
 						TestTargetID = 9196C9C02A6C79C10016388B;
 					};
-					9196CA222A6C80300016388B = {
-						CreatedOnToolsVersion = 15.0;
-					};
 				};
 			};
 			buildConfigurationList = 9196C9962A6C79BF0016388B /* Build configuration list for PBXProject "iFast" */;
@@ -514,7 +454,6 @@
 				9196C9C02A6C79C10016388B /* iFast Watch App */,
 				9196C9D22A6C79C40016388B /* iFast Watch AppTests */,
 				9196C9DC2A6C79C40016388B /* iFast Watch AppUITests */,
-				9196CA222A6C80300016388B /* iFast WidgetsExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -566,14 +505,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9196CA212A6C80300016388B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9196CA302A6C80330016388B /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -581,8 +512,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9196C9FC2A6C7A930016388B /* TimerModel.swift in Sources */,
 				9196C9A12A6C79BF0016388B /* ContentView.swift in Sources */,
+				91CEB8122A6CB9A800B9A265 /* DataController.swift in Sources */,
+				91CEB80A2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */,
 				9196C99F2A6C79BF0016388B /* iFastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -592,7 +524,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9196C9B02A6C79C10016388B /* iFastTests.swift in Sources */,
-				9196C9FD2A6C7A930016388B /* TimerModel.swift in Sources */,
+				91CEB8132A6CB9A800B9A265 /* DataController.swift in Sources */,
+				91CEB80B2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -600,8 +533,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9196C9FE2A6C7A930016388B /* TimerModel.swift in Sources */,
 				9196C9BC2A6C79C10016388B /* iFastUITestsLaunchTests.swift in Sources */,
+				91CEB8142A6CB9A800B9A265 /* DataController.swift in Sources */,
+				91CEB80C2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */,
 				9196C9BA2A6C79C10016388B /* iFastUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -610,8 +544,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9196C9FF2A6C7A930016388B /* TimerModel.swift in Sources */,
 				9196C9C92A6C79C10016388B /* ContentView.swift in Sources */,
+				91CEB8152A6CB9A800B9A265 /* DataController.swift in Sources */,
+				91CEB80D2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */,
 				9196C9C72A6C79C10016388B /* iFastApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -621,7 +556,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9196C9D82A6C79C40016388B /* iFast_Watch_AppTests.swift in Sources */,
-				9196CA002A6C7A930016388B /* TimerModel.swift in Sources */,
+				91CEB8162A6CB9A800B9A265 /* DataController.swift in Sources */,
+				91CEB80E2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,20 +565,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9196CA012A6C7A930016388B /* TimerModel.swift in Sources */,
 				9196C9E42A6C79C40016388B /* iFast_Watch_AppUITestsLaunchTests.swift in Sources */,
+				91CEB8172A6CB9A800B9A265 /* DataController.swift in Sources */,
+				91CEB80F2A6CB98F00B9A265 /* iFast.xcdatamodeld in Sources */,
 				9196C9E22A6C79C40016388B /* iFast_Watch_AppUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		9196CA1F2A6C80300016388B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9196CA2A2A6C80300016388B /* iFast_WidgetsLiveActivity.swift in Sources */,
-				9196CA2E2A6C80300016388B /* AppIntent.swift in Sources */,
-				9196CA282A6C80300016388B /* iFast_WidgetsBundle.swift in Sources */,
-				9196CA2C2A6C80300016388B /* iFast_Widgets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -673,11 +599,6 @@
 			isa = PBXTargetDependency;
 			target = 9196C9C02A6C79C10016388B /* iFast Watch App */;
 			targetProxy = 9196C9DE2A6C79C40016388B /* PBXContainerItemProxy */;
-		};
-		9196CA332A6C80330016388B /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 9196CA222A6C80300016388B /* iFast WidgetsExtension */;
-			targetProxy = 9196CA322A6C80330016388B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -1092,65 +1013,6 @@
 			};
 			name = Release;
 		};
-		9196CA362A6C80330016388B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D569H5C3WV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iFast Widgets/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "iFast Widgets";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast.iFast-Widgets";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		9196CA372A6C80330016388B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = D569H5C3WV;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iFast Widgets/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "iFast Widgets";
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.5;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@executable_path/../../Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.gagebachik.iFast.iFast-Widgets";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1217,16 +1079,21 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9196CA352A6C80330016388B /* Build configuration list for PBXNativeTarget "iFast WidgetsExtension" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				9196CA362A6C80330016388B /* Debug */,
-				9196CA372A6C80330016388B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		91CEB8082A6CB98F00B9A265 /* iFast.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				91CEB8092A6CB98F00B9A265 /* iFast.xcdatamodel */,
+			);
+			currentVersion = 91CEB8092A6CB98F00B9A265 /* iFast.xcdatamodel */;
+			name = iFast.xcdatamodeld;
+			path = ../iFast/iFast.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9196C9932A6C79BF0016388B /* Project object */;
 }

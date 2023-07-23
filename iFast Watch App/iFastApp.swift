@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct iFast_Watch_AppApp: App {
+    @StateObject private var dataController = DataController()
     var body: some Scene {
         WindowGroup {
-            ContentView().modelContainer(for: TimerModel.self)
+            ContentView().environment(\.managedObjectContext, dataController.container.viewContext)
         }
     }
 }
